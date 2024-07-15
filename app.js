@@ -7,10 +7,12 @@ const modalBtn = document.querySelector(".modal-btn");
 const modal = document.querySelector(".modal-overlay");
 const closeBtn = document.querySelector(".close-btn");
 
+// for add open-modal class
 modalBtn.addEventListener("click",function(){
     modal.classList.add("open-modal");
 });
 
+// for remove open-modal class
 closeBtn.addEventListener("click",function(){
     modal.classList.remove("open-modal");
 });
